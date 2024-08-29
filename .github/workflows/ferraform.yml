@@ -26,7 +26,7 @@ jobs:
         run: cd front-end && npm run build
 
       - name: zip build
-        run: zip -r front-end/build
+        run: zip -r build
 
       - name: Set up Terraform
         uses: hashicorp/setup-terraform@v2
