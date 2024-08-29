@@ -23,7 +23,7 @@ jobs:
         run: cd front-end && npm i
 
       - name: build generation
-        run: npm run build
+        run: cd front-end && npm run build
 
       - name: zip build
         run: zip -r front-end/build
